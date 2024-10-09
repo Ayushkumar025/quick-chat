@@ -1,0 +1,39 @@
+.mychatsection{
+    padding: 20px;
+}
+
+.mychatsection .chatinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mychatsection .chatinput button{
+    position: absolute;
+    right: 1%;
+    backdrop-filter: blur;
+}
+
+.mychatsection .chatinput input{
+    width: 100%;
+}
+
+.mychatsection .chatinput input[type="text"]{
+    padding-left: 35px;
+}
+
+.mychatsection .chatinput .attach{
+    position: absolute;
+    left: 1%;
+}
+
+svg{
+    background: none;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px){
+    .mychatsection .chatinput input[type="text"]{
+        font-size: 13px;
+    }
+}
